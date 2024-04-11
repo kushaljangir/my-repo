@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Yogesh Mobile!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand  text-light" href="index.html">Y.M</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item ">
+                        <a class="nav-link  text-light " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light  " href="Aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success " href="contact us.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown  text-light">
+                        <a class="nav-link dropdown-toggle  " href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            shope
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Phones</a></li>
+                            <li><a class="dropdown-item" href="#">Laptops</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Mobile Accerses</a></li>
+                            <li><a class="dropdown-item" href="#">CsC</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+
+                </form>
+
+                <button class="btn btn-outline-success mx-2" type="submit" data-bs-toggle="modal"
+                    data-bs-target="#loginModal" data-bs-whatever="@mdo">Log in</button>
+                <button class="btn btn-success" type="submit" data-bs-toggle="modal" data-bs-target="#singupModal"
+                    data-bs-whatever="@mdo">Sing Up</button>
+
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/mack book.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>MacBook Air 13″ and 15″
+
+                        M2 chip</h5>
+                    <p>Strikingly thin and fast so you can work, play or create anywhere.
+
+                        From ₹114900.00*</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/macbook-pro-m2-price-in-nepal-65464655456001.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Mack book Pro
+                        Supercharged byM2</h5>
+                    <p>Astonishing performance. Incredibly advanced displays. Superfast wireless connectivity.
+                        Next-level Apple
+                        Pencil capabilities. Powerful new features in iPadOS 16. The ultimate iPad experience.
+
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/airpods-pro-lc3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>AirPods Pro (2nd generation) with MagSafe Charging Case</h5>
+                    <p>MRP ₹24900.00 (Incl. of all taxes)</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <BR><BR></BR></BR>
+    <div class="heading">
+        <h1>Contact Us</h1>
+    </div>
+    <BR></BR>
+    <form class="row g-3" action="https://formsubmit.co/04fecef605ce0d37d1d29589267eb3d3" method="post">
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name"required>
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4"required>
+        </div>
+        <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4"required>
+        </div>
+        <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St required" required>
+        </div>
+        <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity" required>
+        </div>
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select" required>
+                <option selected>Choose...</option>
+                <option>Andhra Pradesh
+                </option>
+                <option>
+                    Tamil Nadu
+                </option>
+                <option>
+                    Maharashtra
+
+                </option>
+                <option>
+                    Haryana
+                </option>
+                <option>
+
+                    Odisha
+                </option>
+                <option>
+
+                    Assam
+
+                </option>
+                <option>
+
+                    Uttarakhand
+                </option>
+                <option>
+
+
+                    Mizoram
+                </option>
+                <option>
+
+
+                    Madhya Pradesh
+
+                </option>
+                <option>
+
+                    Rajasthan
+                </option>
+                <option>
+
+
+                    Bihar
+                </option>
+                <option>
+
+
+
+                    Kerala
+
+                </option>
+                <option>
+
+
+                    Himachal Pradesh
+                </option>
+                <option>
+
+
+                    Arunachal Pradesh
+                </option>
+                <option>
+
+
+
+
+                    Sikkim
+
+                </option>
+                <option>
+
+
+                    Meghalaya
+                </option>
+                <option>
+
+
+
+                    Gujarat
+                </option>
+                <option>
+
+
+
+
+
+                    Karnataka
+
+                </option>
+                <option>
+
+
+
+                    Uttar Pradesh
+                </option>
+                <option>
+
+
+
+                    Jharkhand
+                </option>
+                <option>
+
+
+
+
+
+
+                    West Bengal
+
+                </option>
+                <option>
+
+
+
+
+                    Punjab
+                </option>
+                <option>
+
+
+
+
+                    Nagaland
+                </option>
+                <option>
+
+
+
+
+
+
+
+                    Goa
+
+                </option>
+
+            </select>
+        </div>
+
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                    Check me out
+                </label>
+            </div>
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+    <BR></BR>
+    <button type="button" class="btn btn-success tel"><a href="tel:+7027344029">click to call</a></button>
+    <br><BR></BR>
+    <footer class="container">
+        <p class="float-end"><a href="#">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Back to top</font>
+                </font>
+            </a></p>
+        <p>
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">© 2023–2024 Company, Inc. </font>
+                <font style="vertical-align: inherit;">· </font>
+            </font><a href="#">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Privacy Policy</font>
+                </font>
+            </a>
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;"> · </font>
+            </font><a href="#">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Terms of Use</font>
+                </font>
+            </a>
+        </p>
+    </footer>
+
+
+
+
+    <!-- login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Log in</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="https://formsubmit.co/04fecef605ce0d37d1d29589267eb3d3" method="post"">
+          <div class=" mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- singup Modal -->
+    <div class="modal fade" id="singupModal" tabindex="-1" aria-labelledby="singupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="singupModalLabel">Sing Up</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                        </div>
+                    </div>
+                </div>
+                <form action="https://formsubmit.co/04fecef605ce0d37d1d29589267eb3d3" method="post"">
+        <div class=" mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/b416e1d9ad.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
